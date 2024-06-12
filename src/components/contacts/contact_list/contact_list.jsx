@@ -1,19 +1,7 @@
 import css from './contact_list.module.css';
 import { ContactItem } from '../contact/contact_item';
 import { useContacts, useFilter } from 'store/selectors';
-// export const ContactList = ({ contacts, deleteContact }) => {
-//   return (
-//     <ul className={css.list}>
-//       {contacts.map(contact => (
-//         <ContactItem
-//           key={contact.id}
-//           contact={contact}
-//           deleteContact={deleteContact}
-//         />
-//       ))}
-//     </ul>
-//   );
-// };
+
 export const ContactList = () => {
   const contacts = useContacts();
   const filter = useFilter();
