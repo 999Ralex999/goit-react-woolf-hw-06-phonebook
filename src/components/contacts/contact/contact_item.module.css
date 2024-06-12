@@ -1,0 +1,25 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    gap: 20px;
+}
+
+.btnDelete {
+    padding: 0.5rem 1rem;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnDelete:hover {
+    background-color: #bd2130;
+}
+
+.btnDelete:active {
+    background-color: #b21f2d;
+}
